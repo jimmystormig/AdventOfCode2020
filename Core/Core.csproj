@@ -5,8 +5,4 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
-    <ItemGroup>
-      <None Remove="Input\1.txt" />
-    </ItemGroup>
-
 </Project>

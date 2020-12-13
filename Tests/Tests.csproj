@@ -2,11 +2,8 @@
 
     <PropertyGroup>
         <TargetFramework>net5.0</TargetFramework>
-
         <IsPackable>false</IsPackable>
-
         <RootNamespace>AdventOfCode2020</RootNamespace>
-
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
@@ -28,7 +25,13 @@
     </ItemGroup>
 
     <ItemGroup>
+        <None Remove="Input\1.txt" />
+        <None Remove="Input\2.txt" />
+    </ItemGroup>
+    
+    <ItemGroup>
       <EmbeddedResource Include="Input\1.txt" />
+      <EmbeddedResource Include="Input\2.txt" />
     </ItemGroup>
 
 </Project>
