@@ -4,7 +4,7 @@ using AdventOfCode2020.Utils;
 using Core;
 using Xunit;
 
-namespace AdventOfCode2020
+namespace AdventOfCode2020.Core
 {
     public class Day2Tests
     {
