@@ -11,7 +11,6 @@ namespace AdventOfCode2020.Core
         public void FindPair_WhenFindingPairByAddUpValue_ShouldFindTheCorrectPair()
         {
             var values = FileLoader.ReadListFromFile<int>("1.txt");
-            var sut = new Day1();
 
             var pairAddingUpTo2020 = Day1.Find(values, 2, 2020).ToList();
 
@@ -24,7 +23,6 @@ namespace AdventOfCode2020.Core
         public void FindTriplet_WhenFindingPairByAddUpValue_ShouldFindTheCorrectTriplet()
         {
             var values = FileLoader.ReadListFromFile<int>("1.txt");
-            var sut = new Day1();
 
             var tripletAddingUpTo2020 = Day1.Find(values, 3, 2020).ToList();
 

@@ -16,8 +16,6 @@ namespace AdventOfCode2020.Core
                 .Select(line => line.Select(token => token == '#').ToList())
                 .ToList();
 
-            var sut = new Day3();
-
             var trees = Day3.DetectTrees(map, 3, 1);
             
             Assert.Equal(216, trees);
@@ -31,8 +29,6 @@ namespace AdventOfCode2020.Core
                 .Select(line => string.Concat(Enumerable.Repeat(line, 100)))
                 .Select(line => line.Select(token => token == '#').ToList())
                 .ToList();
-
-            var sut = new Day3();
 
             var treesInPath1 = Day3.DetectTrees(map, 1, 1);
             var treesInPath2 = Day3.DetectTrees(map, 3, 1);
