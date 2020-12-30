@@ -36,9 +36,7 @@ namespace Core
             return new List<int>();
         }
 
-        public static int Calculate(IEnumerable<int> input)
-        {
-            return input.Aggregate((v1, v2) => v1 * v2);
-        }
+        public static int Calculate(IEnumerable<int> input) =>
+            input.Aggregate((v1, v2) => v1 * v2);
     }
 }
