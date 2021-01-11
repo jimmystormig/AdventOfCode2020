@@ -35,6 +35,8 @@
         <EmbeddedResource Include="Input\4.txt" />
         <None Remove="Input\5.txt" />
         <EmbeddedResource Include="Input\5.txt" />
+        <None Remove="Input\6.txt" />
+        <EmbeddedResource Include="Input\6.txt" />
     </ItemGroup>
 
 </Project>
